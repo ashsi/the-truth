@@ -1,6 +1,7 @@
 import pygame
 import random
 
+
 # Game state
 
 class Timer:
@@ -18,7 +19,7 @@ class GameState:
     def __init__(self):
         self.timer = Timer()
         self.size = self.width, self.height = 640, 580
-        self.truth_center = (100, 100)
+        self.truth_center = (self.width / 2, self.height / 2)
 
     def update(self):
         if self.timer.update:
@@ -71,7 +72,7 @@ class TruthLayer:
         surface.blit(self.surface, self.rect)
 
 
-# main game
+# Main game
 
 class UI:
     def __init__(self):

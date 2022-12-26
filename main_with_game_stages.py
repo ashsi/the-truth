@@ -1,4 +1,5 @@
 """ Alpha release containing new feature: game stages. Press the mouse button to change the stage and the behaviour of "The Truth" will change. """
+""" Uses Python 3.10 """
 
 from math import sqrt
 

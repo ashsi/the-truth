@@ -1,7 +1,7 @@
 # the-truth
 A python game in process.
 
-My first game. Currently uploaded version was made in one day (the first time I've looked at pygame). New features and even better code organisation to come...
+Currently uploaded version was made in one day (the first time I've looked at pygame). New features to come...
 
 
 Information about Pygame used:

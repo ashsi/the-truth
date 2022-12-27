@@ -137,7 +137,7 @@ class UI:
         stage = self.game_state.num_people_pressed
         recenter_x = [random.choice([100, 550]), random.choice([160, 480]), random.choice([212, 436]),
                       random.randrange(100, 550), random.randrange(100, 550),
-                      random.randrange(max(100, x - 200), min(550, x + 200)), random.choice([160, 480]),
+                      random.randrange(max(100, x - 150), min(550, x + 150)), random.choice([160, 480]),
                       self.circle_x(100), self.circle_x(60), self.width / 2]
         recenter_y = [random.choice([80, 500]), random.choice([145, 435]), random.choice([185, 395]),
                       random.randrange(80, 500), random.randrange(80, 500),

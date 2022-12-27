@@ -17,6 +17,8 @@ https://stackoverflow.com/questions/58540537/how-to-fade-the-screen-out-and-back
 
 Sketch Plan: 
 
-1 change: I decided to make the timer count in intervals of 1.4 seconds, rather than by 1 second, so the game feels ever so slightly unsettling.
+Change 1: I decided to make the timer count in intervals of 1.4 seconds, rather than by 1 second, so the game feels ever so slightly unsettling.
+
+Change 2: Instead of making the erraticness of "the Truth" (i.e. the key) moving away from the cursor decrease as the game progresses, I've changed the behaviour in other ways. This is because the original idea won't show noticible changes in a small screen with not much distance for "the Truth" to run. At some point "the Truth" goes round in a circle in 12 stages like numbers on a clock, which is another reference to how a person's perception of grasping the truth changes over the passing of time.
 
 ![alt text](the_truth_plan.jpg)

@@ -40,7 +40,6 @@ class GameState:
             else:
                 self.circle_stage = 0
             self.circle_stage_update = False
-        # Temporary functionality to change "the Truth" behaviour while there are no people in the game.
         if self.num_people_pressed_update:
             if self.num_people_pressed < 9:
                 self.num_people_pressed += 1

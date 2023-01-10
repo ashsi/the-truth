@@ -1,5 +1,5 @@
 # the-truth
-A python game in process.
+A python game.
 New features to come...
 
 
